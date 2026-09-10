@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="PhotonUser"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-08-31 03:59:42 PM"/>
+        <attribute name="created" value="UGhvdG9uVXNlcjtFQzJBTUFaLTA2TEFBTTE7MjAyNi0wOC0zMTswMzozMToxOSBQTTszMjky"/>
+        <attribute name="edited" value="UGhvdG9uVXNlcjtFQzJBTUFaLTA2TEFBTTE7MjAyNi0wOC0zMTswMzo1OTo0MiBQTTszOzM0MDg="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="quantity" type="Integer" array="False" size=""/>
+            <declare name="pricePerItem, totalPrice" type="Real" array="False" size=""/>
+            <output expression="&quot;How many items are you purchasing?&quot;" newline="True"/>
+            <input variable="quantity"/>
+            <output expression="&quot;What is the price per item?&quot;" newline="True"/>
+            <input variable="pricePerItem"/>
+            <assign variable="totalPrice" expression="quantity*pricePerItem"/>
+            <output expression="&quot;The total price of your purchase is $&quot; &amp; totalPrice" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

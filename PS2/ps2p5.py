@@ -3,7 +3,7 @@ pricePaid = None
 numberOfShares = None
 
 while pricePaid == None:
-    print("Please enter the price you paid for share")
+    print("Please enter the price you paid per share")
     try:
         floatInput = float(input())
         if (floatInput != round(floatInput, 2)):
@@ -38,8 +38,8 @@ while numberOfShares == None:
 priceDifference = (currentPrice - pricePaid) * numberOfShares
 
 if priceDifference > 0:
-    print(f"This investment has gained ${priceDifference:.2f}")
+    print(f"Your investment has gained ${priceDifference:.2f}")
 elif priceDifference < 0:
-    print(f"This investment has lost ${-priceDifference:.2f}")
+    print(f"Your investment has lost ${-priceDifference:.2f}")
 else:
     print("Your investment has stayed at the same value")

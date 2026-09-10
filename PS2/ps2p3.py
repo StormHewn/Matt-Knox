@@ -40,4 +40,4 @@ midtermWeightedScore   = midtermScore   * 0.4
 finalExamWeightedScore = finalExamScore * 0.6
 totalScore = midtermWeightedScore + finalExamWeightedScore
 
-print(f"Mr/Ms. {lastName}'s total score is {totalScore}")
+print(f"Mr/Ms. {lastName}'s total score is {totalScore:.1f}%")

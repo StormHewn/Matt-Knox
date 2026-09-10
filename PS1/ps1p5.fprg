@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="PhotonUser"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-08-31 04:50:42 PM"/>
+        <attribute name="created" value="UGhvdG9uVXNlcjtFQzJBTUFaLTA2TEFBTTE7MjAyNi0wOC0zMTswNDozMzoxMyBQTTszMjg5"/>
+        <attribute name="edited" value="UGhvdG9uVXNlcjtFQzJBTUFaLTA2TEFBTTE7MjAyNi0wOC0zMTswNDo1MDo0MiBQTTsyOzMzOTk="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="price, discountPercent" type="Real" array="False" size=""/>
+            <output expression="&quot;What is the price of the item?&quot;" newline="True"/>
+            <input variable="price"/>
+            <comment text="I know it wasn't in the assignment, but it bugged me that users could enter percents out of acceptable range."/>
+            <do expression="(discountPercent&gt;1) || (discountPercent&lt;0)">
+                <output expression="&quot;What is the discount amount? (decimal form)&quot;" newline="True"/>
+                <input variable="discountPercent"/>
+            </do>
+            <declare name="discountedPrice" type="Real" array="False" size=""/>
+            <assign variable="discountedPrice" expression="price*(1-discountPercent)"/>
+            <output expression="&quot;At a &quot; &amp; (discountPercent * 100) &amp; &quot;% discount, the item costs $&quot; &amp; ToFixed(discountedPrice, 2)" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

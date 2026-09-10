@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="PhotonUser"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-08-31 04:32:45 PM"/>
+        <attribute name="created" value="UGhvdG9uVXNlcjtFQzJBTUFaLTA2TEFBTTE7MjAyNi0wOC0zMTswMzozMToxOSBQTTszMjky"/>
+        <attribute name="edited" value="UGhvdG9uVXNlcjtFQzJBTUFaLTA2TEFBTTE7MjAyNi0wOC0zMTswNDozMjo0NSBQTTs1OzM0MDU="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="lastName" type="String" array="False" size=""/>
+            <declare name="hours, hourlyRate, totalPayment" type="Real" array="False" size=""/>
+            <output expression="&quot;What is the worker's last name?&quot;" newline="True"/>
+            <input variable="lastName"/>
+            <output expression="&quot;How many hours did they work this week?&quot;" newline="True"/>
+            <input variable="hours"/>
+            <output expression="&quot;What is their pay rate? (Dollars per hour)&quot;" newline="True"/>
+            <input variable="hourlyRate"/>
+            <assign variable="totalPayment" expression="hours*hourlyRate"/>
+            <output expression="&quot;Mr./Ms. &quot; &amp; lastName &amp; &quot; should be compensated $&quot; &amp; ToFixed(totalPayment, 2) &amp; &quot; for their labor.&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

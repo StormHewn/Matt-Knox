@@ -15,4 +15,4 @@ while wages == None:
 
 wagesRemaining = wages % 0.03
 wagesPerPartner = (wages - wagesRemaining) / 3
-print(f"Each partner whould get ${wagesPerPartner:.2f}, with {round(wagesRemaining * 100)}¢ left over.")
+print(f"Each partner should get ${wagesPerPartner:.2f}, with {round(wagesRemaining * 100)}¢ left over.")
