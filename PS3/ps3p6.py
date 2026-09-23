@@ -24,8 +24,8 @@ while salary == None:
         print("Please enter a dollar amount, ex 38000.57")
 while jobLevel == None:
     print("Please enter your job level")
-    rawIntScore = int(input())
     try:
+        rawIntScore = int(input())
         if not (0 <= rawIntScore and rawIntScore <= 15):
             raise
         else:
