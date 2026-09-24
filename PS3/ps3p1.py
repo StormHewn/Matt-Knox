@@ -1,6 +1,6 @@
 itemCount = 0
 while itemCount == None:
-    print("Please enter your second exam score")
+    print("Please enter the quantity of items you would like to purchase")
     try:
         rawInt = int(input())
         if itemCount < 0:

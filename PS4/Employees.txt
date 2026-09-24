@@ -1,0 +1,12 @@
+Rodgers
+50000
+Stark
+800000
+Odinson
+70000
+Romanoff
+120000
+Barton
+80000
+Banner
+20000

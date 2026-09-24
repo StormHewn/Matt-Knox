@@ -1,0 +1,12 @@
+Lightsaber
+5
+18000
+Blaster
+15
+2000
+Thermal Detonator
+8
+300
+Imperial Senate Seat
+3
+450000

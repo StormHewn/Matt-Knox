@@ -1,0 +1,15 @@
+Baggins
+I
+8
+Gamgee
+I
+10
+Took
+O
+11
+BrandyBuck
+O
+9
+Underhill
+I
+3
