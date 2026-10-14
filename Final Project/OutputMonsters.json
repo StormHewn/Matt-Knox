@@ -1,0 +1,37 @@
+[
+    {
+        "name": "Balrog",
+        "elements": [
+            "Fire",
+            "Shadow"
+        ],
+        "universe": "LotR",
+        "attributes": [
+            "Might have wings",
+            "Corrupted by Morgoth"
+        ]
+    },
+    {
+        "name": "Shelob",
+        "elements": [
+            "Shadow",
+            "Poison"
+        ],
+        "universe": "LotR",
+        "attributes": [
+            "Has eight legs",
+            "Wounded by light"
+        ]
+    },
+    {
+        "name": "Dinraal",
+        "elements": [
+            "Fire"
+        ],
+        "universe": "TLoZ",
+        "attributes": [
+            "Flies",
+            "Immortal"
+        ]
+    }
+]
